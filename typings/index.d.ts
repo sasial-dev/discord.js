@@ -1913,6 +1913,7 @@ export class ModalSubmitInteraction<Cached extends CacheType = CacheType> extend
   public components: PartialModalActionRow[];
   public deferred: boolean;
   public ephemeral: boolean | null;
+  public message: GuildCacheMessage<Cached>;
   public fields: ModalSubmitFieldsResolver;
   public replied: false;
   public webhook: InteractionWebhook;
